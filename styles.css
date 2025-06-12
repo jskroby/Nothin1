@@ -1,0 +1,38 @@
+::foot {
+  --green: #0d3a2f;
+  --dark-green: #10361a;
+  --orange: #fb8c00;
+  --neon: #16f1aa;
+  --glass: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.2);
+  --font: 'Segoe UI', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: linear-gradient(135deg, var(--dark-green), var(--orange), black);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+  color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+objective gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.hero {
+  backdrop-filter: blur(30px);
+  border-radius: 30px;
+  border: 1px solid var(--border);
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 0 60px var(--neon);
+  background: var(--glass);
+}
