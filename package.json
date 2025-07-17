@@ -1,0 +1,16 @@
+{
+  "name": "nothin1",
+  "version": "1.0.0",
+  "description": "A minimal static project containing a styled landing page and small script that logs messages automatically on page load.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "node-cron": "^4.1.0"
+  }
+}
