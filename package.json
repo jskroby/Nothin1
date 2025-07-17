@@ -1,0 +1,16 @@
+{
+  "name": "compute-nft-cli",
+  "version": "1.0.0",
+  "bin": { "compute-nft": "./compute-nft.js" },
+  "engines": { "node": ">=16" },
+  "dependencies": {
+    "env-schema": "^6.0.1",
+    "openai": "^4.0.0",
+    "ethers": "^5.7.0",
+    "snarkjs": "^0.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
