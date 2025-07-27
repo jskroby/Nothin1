@@ -21,3 +21,7 @@ The `vercel.json` file rewrites the root path to `index.html` so the landing pag
 The page now includes a basic login form that posts to `/api/login`. You can
 extend the serverless function in `api/login.js` to authenticate users or store
 credentials in environment variables.
+
+## Continuous Integration
+
+This repository now includes a simple GitHub Actions workflow that checks the syntax of the Python voice assistant script on each push or pull request. The workflow is defined in `.github/workflows/python-ci.yml` and ensures the assistant code remains syntactically valid.
